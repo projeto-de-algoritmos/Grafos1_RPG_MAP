@@ -9,7 +9,7 @@ countries = {
     "Ayvyan":[
         "Velugauth",
         "Chach",
-        "haksun"
+        "Haksun"
     ],
     "Haksun": [
         "Chach",
@@ -46,6 +46,9 @@ countries = {
     "Stormitia": [
         "Curwich",
         "Storemon"
+    ],
+    "Curwich": [
+        "Stormitia"
     ],
     "Storemon": [
         "Stormitia",
