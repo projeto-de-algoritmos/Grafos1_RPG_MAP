@@ -1,6 +1,3 @@
-from sqlalchemy import false, true
-
-
 class Graph: 
 
     def __init__(self, edges: dict) -> None: 
@@ -30,7 +27,7 @@ class Graph:
         if start == end:
             return [start]
         
-        for node in self.get_nodes:
+        for node in self.get_nodes():
             visited[node] = False
             parent[node] = None
 
