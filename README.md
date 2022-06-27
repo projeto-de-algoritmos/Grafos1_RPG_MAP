@@ -1,20 +1,6 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# RPG MAP
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
+**Número da Lista**: 1<br>
 **Conteúdo da Disciplina**: Grafos 1<br>
 
 ## Alunos
@@ -24,21 +10,52 @@ Temas:
 | 18/0106805  |  Mateus Cunha Maia |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O projeto mostra a menor rota entre um país e outro em um mapa de RPG, utilizando o algoritmo BFS.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+![Tela Inicial](./assets/img_3.jpeg)
+</figcaption>
+    Imagem 1: Tela Inicial
+</figcaption>
+
+![Tela de Resultado](./assets/img_2.jpeg)
+</figcaption>
+    Imagem 2: Tela de Resultado 1
+</figcaption>
+
+![Tela de Resultado](./assets/img_1.jpeg)
+</figcaption>
+    Imagem 3: Tela de Resultado 2
+</figcaption>
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: python e javascript <br>
+**Framework**: react js<br>
+
+Um dos pré requisitos para rodar o projeto é ter o docker e o docker-compose instalados. Outro pré-requisito é ter o python versão 3+.
+
+Para subir o docker basta rodar o camando na pasta backend:
+``` shell
+$ docker-compose up --build
+```
+
+para subir o frontend basta executar os comandos dentro da pasta frontend:
+``` shell
+$ yarn
+```
+e
+``` shell
+$ yarn start
+```
+
+E acessar o endereço http://localhost:3000 no seu navegador.
+
+De preferência, utilizar um navegador diferente do Google Chrome.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Escolha o país de origem e o país de destino e aperte o botão enviar. Feito isso, a api retornará o caminho mais otimizado entre os países selecionados.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
 
 
