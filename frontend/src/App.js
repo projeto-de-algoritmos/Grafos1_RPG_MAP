@@ -39,9 +39,13 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Juliana Pereira Valle Gonçalves</h1>
+
+      <h1>RPG MAP</h1>
+
       <img src={MapImage} alt="Map" className="Map" />
+
       <div className="InputContainer">
+
         <Select
           options={countries}
           placeholder="País inicial"
@@ -50,21 +54,27 @@ function App() {
           }}
           className="InputField"
         />
+
         <Select
           options={countries}
-          placeholder="País final"
+          placeholder="País destino"
           onChange={(e)=>{
               setFinalCountry(e.value);
           }}
           className="InputField"
         />
+
         <button type="submit" onClick={findPath}>Enviar</button>
+
       </div>
+
       <ul>
+      <p>Instruções para ir de {initialCountry} para {finalCountry}:</p>
         {result.map((country)=>(
-          <li>{country}</li>
+          <li> {country}</li>
         ))}
       </ul>
+       
     </div>
   );
 }
