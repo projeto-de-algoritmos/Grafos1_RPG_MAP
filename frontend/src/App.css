@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.Map {
+  margin-bottom: 20px;
+}
+
+.InputContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.InputField {
+  width: 400px;
+  margin-right: 10px;
+}
