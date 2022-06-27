@@ -12,6 +12,10 @@
 ## Sobre 
 O projeto mostra a menor rota entre um país e outro em um mapa de RPG, utilizando o algoritmo BFS.
 
+## Apresentação
+
+A apresentação do projeto pode ser vista no seguinte [link](https://youtu.be/neoMKvIZVyU).
+
 ## Screenshots
 
 ![Tela Inicial](./assets/img_3.jpeg)
