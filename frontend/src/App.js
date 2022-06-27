@@ -71,7 +71,7 @@ function App() {
       <ul>
       <p>Instruções para ir de {initialCountry} para {finalCountry}:</p>
         {result.map((country)=>(
-          <li> {country}</li>
+          <li> Vá para {country}</li>
         ))}
       </ul>
        
